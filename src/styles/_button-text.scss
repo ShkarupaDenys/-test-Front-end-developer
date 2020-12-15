@@ -1,0 +1,22 @@
+.button-text {
+  border: none;
+  background: none;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+
+  &__icon {
+    display: block;
+    width: 28px;
+    height: 28px;
+    margin-right: 12px;
+  }
+
+  &__text {
+    font-size: 13px;
+    line-height: 140%;
+    color: $base-colour;
+  }
+}

@@ -1,0 +1,23 @@
+.card {
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    &__icon {
+        display: block;
+        width: 36px;
+        height: 36px;
+        margin-right: 18px;
+    }
+
+    &__synchronization {
+        color: #B5B5B5;
+    }
+
+    &__button {
+        margin: 0 0 0 auto;
+    }
+}

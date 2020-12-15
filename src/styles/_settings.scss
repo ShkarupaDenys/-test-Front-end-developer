@@ -1,0 +1,42 @@
+.settings {
+    width: 570px;
+    box-sizing: border-box;
+    background-color: $white;
+    padding: 28px 18px 39px 42px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 8px rgba(154, 156, 174, 0.06);
+
+    &__my-money {
+        display: flex;
+        margin: 30px 0 28px;
+    }
+
+    &__amount {
+        margin-left: 20px;
+        text-transform: uppercase;
+    }
+
+    &__main-currency {
+        margin-bottom: 12px;
+    }
+
+    &__penny {
+        margin: 22px 0 15px;
+    }
+
+    &__penny-wrap {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid $light-grey;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+
+    &__radio {
+        margin-top: 8px;
+    }
+
+    &__synchronization {
+        margin-bottom: 25px;
+    }
+}

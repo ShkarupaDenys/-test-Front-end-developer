@@ -1,0 +1,44 @@
+.radio {
+    width: max-content;
+    display: inline-flex;
+    align-items: center;
+
+    &__input {
+       display: none;
+    }
+
+    &__input-custom {
+        width: 13px;
+        height: 13px;
+        border: 1px solid $base-colour;
+        border-radius: 50%;
+        margin-right: 10px;
+        position: relative;
+        box-sizing: border-box;
+        transition: all .3s ease;
+    }
+
+    &__input-custom-inner {
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background-color: $white;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    &__text {
+        display: block;
+        color: $base-colour;
+    }
+
+    &__input:checked ~ .radio__input-custom {
+        background-color: $base-colour;
+        transition: all .3s ease;
+    }
+     
+}
